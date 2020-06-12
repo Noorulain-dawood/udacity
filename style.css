@@ -1,0 +1,184 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Lobster', cursive;
+}
+
+#main-title .heading {
+  text-align: center;
+  font-family: 'Lobster', cursive;
+  font-size: 3rem;
+}
+#main-title .back-button .btn{
+  float: right;
+   margin:  1%;
+  background-color: #5b0a13;
+  color: #fff;
+}
+
+.back-button a{
+  text-decoration: none;
+  color: #fff;
+}
+
+.articles h2 {
+  margin: 3% 0%;
+}
+
+.articles ul li {
+  line-height: 3;
+  list-style-type: none;
+  font-weight: bold;
+}
+
+.articles ul li a{
+  text-decoration: none;
+  color: #000;
+}
+
+#main-content ul li:hover {
+  transition: 0.5s;
+  border-bottom: 5px solid red;
+  width: 90px;
+}
+
+@media (max-width:400px) {
+  #main-content .city1 ,.city2 ,.city3{
+    text-align:justify;
+    margin: 5% 18%;
+  }
+}
+
+@media (min-width:900px) {
+#main-content{
+  display: flex;
+  flex-wrap: wrap;
+}
+#main-content .city1 ,.city2 ,.city3{
+  text-align:justify;
+  margin: 5% 3%;
+}
+}
+
+
+
+
+#main-content{
+  margin: 5% 0%;
+  text-align:justify;
+}
+
+.card .btn {
+  padding: 3% 35%;
+  background-color: inherit;
+}
+
+.card .btn:hover {
+  transition: 0.5s;
+  background-color: #5b0a13;
+  color: #fff;
+}
+
+#main-content .articles {
+  flex: 1;
+  margin-left: 3%;
+}
+
+#main-content p {
+padding: 5% 0;
+}
+
+.city1 {
+  flex: 1;
+}
+
+.city2 {
+  flex: 1;
+}
+
+.city3 {
+  flex: 1;
+}
+
+#main-content .city1 ,.city2 ,.city3 {
+  width: 16rem;
+}
+
+#main-content .card img {
+  width: 300px;
+  height: 200px;
+}
+
+
+
+
+
+
+.footer-end{
+  text-align: center;
+  padding: 1% 0%;
+}
+ /* page 2  */
+@media (min-width:1100px) {
+  #citys{
+    width: 90%;
+    margin: 5% auto;
+    display: grid;
+    grid-template-rows: 500px 500px 500px;
+    grid-template-columns:50% 50% ;
+   grid-row-gap: 5%;
+  }
+
+  #citys img{
+    width: 470px;
+    height: 400px;
+    margin-left: 10%;
+  }
+}
+#citys img{
+  width: 500px;
+  height: 400px;
+  margin-left: 5%;
+}
+#citys h1{
+  font-family: 'Sriracha', cursive;
+  font-size: 2rem;
+}
+#citys p{
+  padding: 3% 5%;
+}
+
+.cappadocia-content ,.cappadocia-gallery{
+  background-color: #00516d;
+  padding: 5%;
+  color: #fff;
+}
+
+.istanbul-content ,.istanbul-gallery ,.antalya-content ,.antalya-gallery{
+  background-color: #b192a6;
+  padding: 5%;
+  color: #fff;
+}
+
+/* newsfeed section */
+#newfeed{
+  text-align: center;
+  padding: 3%;
+}
+.newfeed-section p{
+  padding: 1%;
+}
+#newfeed .form{
+  padding: 3% 0%;
+}
+#newfeed .form ,input ,button{
+  padding: 1%;
+}
+#newfeed button{
+  background-color: #5b0a13;
+  color: #fff;
+}
